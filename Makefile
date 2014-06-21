@@ -30,7 +30,7 @@ endif
 
 REBAR := .$(SEP)rebar
 
-default: fast dialyzer
+default: fast #dialyzer
 
 fast: get-deps compile
 
